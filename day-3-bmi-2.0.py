@@ -15,11 +15,11 @@ message = ''
 #print messages
 if bmi < 18.5:
     message =f" Your BMI is {bmi}, you are underweight"
-elif bmi >=18.5 and bmi < 25:
+elif bmi < 25:
     message =f" Your BMI is {bmi}, you have a normal weight"
-elif bmi >= 25 and bmi < 30:
+elif bmi < 30:
     message = f"Your BMI is {bmi}, you are slightly overweight"
-elif bmi >= 30 and bmi < 35:
+elif bmi < 35:
     message = f"Your BMI is {bmi}, you are overweight"
 else:
     message =f" Your BMI is {bmi}, you are clininically obese"
